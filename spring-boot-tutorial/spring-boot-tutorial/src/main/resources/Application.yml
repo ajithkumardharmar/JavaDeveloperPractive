@@ -1,0 +1,79 @@
+#server:
+#  port: 8088
+#    
+#spring:
+#  profiles:
+#    active: qa  # This sets 'qa' as the default active profile
+#  application:
+#    name: spring-boot-tutorial
+#
+#---
+#
+#spring:
+#  config:
+#    activate:
+#      on-profile: dev
+#  datasource:
+#    username: sa
+#    url: jdbc:h2:file:C:/Users/ajit2903/dev-db;AUTO_SERVER=TRUE
+#    driverClassName: org.h2.Driver
+#    password: password
+#  h2:
+#    console:
+#      enabled: true
+#  jpa:
+#    database-platform: org.hibernate.dialect.H2Dialect
+#    hibernate:
+#      ddl-auto: update
+#  welcome:
+#    message: Hello Spring Boot Developer (Dev)
+#
+#---
+#
+#spring:
+#  config:
+#    activate:
+#      on-profile: qa
+#  datasource:
+#    username: sa
+#    url: jdbc:h2:file:C:/Users/ajit2903/qa-db;AUTO_SERVER=TRUE
+#    driverClassName: org.h2.Driver
+#    password: password
+#  h2:
+#    console:
+#      enabled: true
+#  jpa:
+#    database-platform: org.hibernate.dialect.H2Dialect
+#    hibernate:
+#      ddl-auto: update
+#  welcome:
+#    message: Hello Spring Boot Developer (QA)
+#    
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include: "*"
+#        exclude: "beans,env"
+#
+#
+#---
+#
+#spring:
+#  config:
+#    activate:
+#      on-profile: prod
+#  datasource:
+#    username: sa
+#    url: jdbc:h2:file:C:/Users/ajit2903/prod-db;AUTO_SERVER=TRUE
+#    driverClassName: org.h2.Driver
+#    password: password
+#  h2:
+#    console:
+#      enabled: true
+#  jpa:
+#    database-platform: org.hibernate.dialect.H2Dialect
+#    hibernate:
+#      ddl-auto: update
+#  welcome:
+#    message: Hello Spring Boot Developer (PROD)

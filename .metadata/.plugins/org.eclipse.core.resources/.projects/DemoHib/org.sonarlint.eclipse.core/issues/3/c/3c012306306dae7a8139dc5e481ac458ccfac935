@@ -1,0 +1,21 @@
+
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ú¬ûˆH‚RMINORZ
+CODE_SMELL
+m	java:S1253"<This block of commented-out lines of code should be removed.(š¥ÿx8·¢Þ»˜1HƒRMAJORZ
+CODE_SMELL
+s	java:S125"<This block of commented-out lines of code should be removed.(ÆÜ°êûÿÿÿÿ8Õ¢â»˜1H‰RMAJORZ
+CODE_SMELL
+s	java:S125<"<This block of commented-out lines of code should be removed.(¤ó¾õøÿÿÿÿ8Õ¢â»˜1H—RMAJORZ
+CODE_SMELL
+i
+java:S1128"1Remove this unused import 'java.util.Collection'.(¹ÉÐšùÿÿÿÿ8‚ù¹è˜1H›RMINORZ
+CODE_SMELL
+k	java:S106D"9Replace this use of System.out or System.err by a logger.(„íí8ãÕâ»˜1HRMAJORZ
+CODE_SMELL
+s	java:S125E"<This block of commented-out lines of code should be removed.(³Ï–¥ÿÿÿÿÿ8·ÈÔç˜1HžRMAJORZ
+CODE_SMELL
+k	java:S106X"9Replace this use of System.out or System.err by a logger.(„íí8´ÊÐç˜1H¨RMAJORZ
+CODE_SMELL
+i
+java:S1128"6Remove this unused import 'org.hibernate.Transaction'.(ìÌè³8‚ù¹è˜1H©RMINORZ
+CODE_SMELL
