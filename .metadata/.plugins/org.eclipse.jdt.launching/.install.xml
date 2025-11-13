@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <dirs>
-    <entry loc="E:\Eclipse_2022_09\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220903-1038\jre" stamp="1662647128000"/>
-    <entry loc="D:\software\jdk-17.0.6" stamp="1670322714000"/>
-    <entry loc="E:\Eclipse_2022_09\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220903-1038" stamp="1662647128000"/>
+    <entry loc="C:\sts-4.32.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.8.v20250724-1412\jre" stamp="1757098220000"/>
+    <entry loc="C:\sts-4.32.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.8.v20250724-1412" stamp="1757098220000"/>
 </dirs>

@@ -34,12 +34,26 @@ public class FeatureEndpoint {
 		return featureMap.get(featureName);
 	}
 	
-	@Data
-	@NoArgsConstructor
-	@AllArgsConstructor
+//	@Data
+//	@NoArgsConstructor
+//	@AllArgsConstructor
 	private static class Feature{
+		
 		private boolean isEnabled;
+		
+		public Feature() {
+			super();
+		}
+
+		public Feature(boolean isEnabled) {
+			super();
+			this.isEnabled = isEnabled;
+		}
+
+		
 	}
+	
+	
 	
 
 }

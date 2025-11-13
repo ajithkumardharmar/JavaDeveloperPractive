@@ -38,6 +38,7 @@ public class DepartmentServiceTest {
 //	@Disabled  --> this annotation for skip test case method
 	public void whenValidDepartmentName_thenDepartmentFound() {
 		String departmentName = "IT";
+		
 		Department found = departmentService.fetchDistinctByDepartmentName(departmentName);
 		assertEquals(departmentName, found.getDepartmentName());
 	}

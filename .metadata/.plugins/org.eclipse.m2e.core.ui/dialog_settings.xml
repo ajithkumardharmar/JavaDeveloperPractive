@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<section name="MavenProjectWizardLocationPage">
-		<list key="location">
-			<item value="E:\JavaDeveloperPractive\AOP"/>
-			<item value="E:\JavaDeveloperPractive\DemoHib\src\main\java\com\ajith\vo\Student.java"/>
-			<item value="E:\JavaDeveloperPractive\UserService"/>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\JavaDeveloperPractive\UserServices"/>
+			<item value="C:\JavaDeveloperPractive\SpringSecurity"/>
+			<item value="C:\JavaDeveloperPractive\SpringFrameworkDemo"/>
+			<item value="C:\JavaDeveloperPractive\SpringAOP"/>
+			<item value="C:\JavaDeveloperPractive\service-registry"/>
+			<item value="C:\JavaDeveloperPractive\OrderServices"/>
+			<item value="C:\JavaDeveloperPractive\limits-service"/>
+			<item value="C:\JavaDeveloperPractive\MangoDBTest"/>
+			<item value="C:\JavaDeveloperPractive\DemoHib"/>
+			<item value="C:\JavaDeveloperPractive\DeliveryService"/>
+			<item value="C:\JavaDeveloperPractive\api-gateway"/>
+			<item value="C:\JavaDeveloperPractive\AOP"/>
+			<item value="C:\JavaDeveloperPractive\spring-boot-tutorial"/>
+			<item value="C:\JavaDeveloperPractive\ActiveMQ"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -13,116 +24,10 @@
 			<item value="[groupId].[artifactId]"/>
 			<item value="[groupId].[artifactId]-[version]"/>
 			<item value="[name]"/>
-		</list>
-	</section>
-	<section name="MavenProjectWizardArchetypePage">
-		<item key="catalog" value="internal"/>
-		<list key="projectNameTemplate">
-			<item value="[artifactId]"/>
-			<item value="[artifactId]-TRUNK"/>
-			<item value="[artifactId]-[version]"/>
-			<item value="[groupId].[artifactId]"/>
-			<item value="[groupId].[artifactId]-[version]"/>
-			<item value="[name]"/>
-		</list>
-	</section>
-	<section name="Maven2ProjectWizardArchifactPage">
-		<list key="package">
-			<item value="com.springboot.activemq"/>
-			<item value="com.example.SpringAOP"/>
-		</list>
-		<list key="groupId">
-			<item value="com.springboot"/>
-			<item value="com.example"/>
-		</list>
-		<list key="artifactId">
-			<item value="activemq"/>
-			<item value="SpringAOP"/>
-		</list>
-		<list key="projectNameTemplate">
-			<item value="[artifactId]"/>
-			<item value="[artifactId]-TRUNK"/>
-			<item value="[artifactId]-[version]"/>
-			<item value="[groupId].[artifactId]"/>
-			<item value="[groupId].[artifactId]-[version]"/>
-			<item value="[name]"/>
-		</list>
-		<list key="version">
-			<item value="0.0.1-SNAPSHOT"/>
-		</list>
-	</section>
-	<section name="MavenProjectWizardArtifactPage">
-		<list key="groupId">
-		</list>
-		<list key="name">
-		</list>
-		<list key="artifactId">
-		</list>
-		<list key="projectNameTemplate">
-			<item value="[artifactId]"/>
-			<item value="[artifactId]-TRUNK"/>
-			<item value="[artifactId]-[version]"/>
-			<item value="[groupId].[artifactId]"/>
-			<item value="[groupId].[artifactId]-[version]"/>
-			<item value="[name]"/>
-		</list>
-		<list key="version">
-			<item value="0.0.1-SNAPSHOT"/>
 		</list>
 	</section>
 	<section name="org.eclipse.m2e.core.pom.overview">
 	</section>
 	<section name="org.eclipse.m2e.core.pom.dependencies">
-	</section>
-	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
-		<item key="width" value="480"/>
-		<item key="height" value="531"/>
-		<item key="x" value="443"/>
-		<item key="y" value="10"/>
-	</section>
-	<section name="MavenCheckoutLocationPage">
-		<list key="scmUrl">
-		</list>
-		<list key="projectNameTemplate">
-			<item value="[artifactId]"/>
-			<item value="[artifactId]-TRUNK"/>
-			<item value="[artifactId]-[version]"/>
-			<item value="[groupId].[artifactId]"/>
-			<item value="[groupId].[artifactId]-[version]"/>
-			<item value="[name]"/>
-		</list>
-	</section>
-	<section name="MavenProjectImportWizardPage">
-		<list key="rootDirectory">
-			<item value="E:\JavaDeveloperPractive\SpringSecurity"/>
-			<item value="E:\JavaDeveloperPractive\MangoDBTest"/>
-			<item value="E:\JavaDeveloperPractive\ActiveMQ"/>
-			<item value="E:\JavaDeveloperPractive\Activemq"/>
-			<item value="E:\JavaDeveloperPractive\api-gateway"/>
-			<item value="E:\JavaDeveloperPractive\spring-boot-tutorial"/>
-			<item value="E:\JavaDeveloperPractive\service-registry"/>
-			<item value="E:\JavaDeveloperPractive\limits-service"/>
-		</list>
-		<list key="projectNameTemplate">
-			<item value="[artifactId]"/>
-			<item value="[artifactId]-TRUNK"/>
-			<item value="[artifactId]-[version]"/>
-			<item value="[groupId].[artifactId]"/>
-			<item value="[groupId].[artifactId]-[version]"/>
-			<item value="[name]"/>
-		</list>
-	</section>
-	<section name="wizardPage">
-		<list key="groupId">
-			<item value="UserService"/>
-		</list>
-		<list key="name">
-		</list>
-		<list key="artifactId">
-			<item value="UserService"/>
-		</list>
-		<list key="version">
-			<item value="0.0.1-SNAPSHOT"/>
-		</list>
 	</section>
 </section>

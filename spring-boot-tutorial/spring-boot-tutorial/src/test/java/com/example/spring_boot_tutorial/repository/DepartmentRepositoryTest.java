@@ -23,12 +23,13 @@ public class DepartmentRepositoryTest {
 	
 	@BeforeEach
 	void setUp(){
-		new Department();
-		Department dept = Department.builder().departmentName("Java Developer")
-				.departmentAddres("Madurai").departmentCode("IT-1").build();
-//		dept.setDepartmentName("Java Developer");
-//        dept.setDepartmentAddres("Madurai");
-//        dept.setDepartmentCode("IT-1");
+		
+//		Department dept = Department.builder().departmentName("Java Developer")
+//				.departmentAddres("Madurai").departmentCode("IT-1").build();
+		Department dept = new Department();
+		dept.setDepartmentName("Java Developer");
+        dept.setDepartmentAddres("Madurai");
+        dept.setDepartmentCode("IT-1");
 		savedDepartment = testEntityManager.persistFlushFind(dept);
 		
 	}
